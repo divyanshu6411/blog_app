@@ -1,0 +1,39 @@
+
+.content
+{
+   display:flex;
+   flex-wrap: wrap;
+   margin-top: 2.4rem;
+   margin:0px 0px 10px 10px;
+}
+.contentItem
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+}
+.itemsimage > img
+{
+    object-fit: cover;
+    width:100%;
+    min-width: 300px;
+    max-width:400px;
+    border-radius: 7px;
+}
+.title
+{
+    padding:4px;
+    font-weight: 500;
+    min-width: 300px;
+    max-width:400px;
+    color: rgb(37, 37, 36);
+    cursor: pointer;
+}
+
+.desc
+{   min-width: 300px;
+    max-width:400px;
+    color: rgb(83, 78, 78);
+}

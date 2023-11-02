@@ -1,0 +1,112 @@
+
+
+.Singlepost
+{  flex:9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinformation
+{
+    display: flex;
+    width:90%;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(186, 158, 85);
+    font-size: 19px;
+}
+
+.sppic
+{
+    object-fit: cover;
+    border-radius: 5px;
+    /* width:70wh; */
+     width:70vw;
+     height:300px;
+}
+
+.sptitlename
+{   margin: 7px;
+    flex:9;
+    font-weight: 500;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spdescription
+{
+    padding: 20px;
+    margin: 7px 10px 7px 14px;
+    color: grey;
+}
+
+.spdescription::first-letter
+{
+    font-size: 25px;
+    color: rgb(160, 99, 88);
+    padding-left: 10px;
+}
+.sptitle{
+    display: flex;
+    width:90%;
+    
+}
+.spicons
+{   
+   flex:0.5;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.fs
+{
+    color: tomato;
+    cursor: pointer;
+}
+
+.fd 
+{
+    color:teal;
+    cursor: pointer;
+}
+
+.updatebutton
+{
+    font-size: 14px;
+    border-radius:5px;
+    height:25px;
+    width:60px;
+    cursor: pointer;
+    margin:7px;
+}
+.spdesinput
+{
+   width:87%;
+   height:30vw;
+   border:none;
+   font-size: 16px;
+   /* margin:10px; */
+}
+.spdesinput:focus
+{
+    outline: none;
+}
+
+.sptitleinput
+{
+    border:none;
+    border-bottom: 1px solid lightgray;
+    color:gray;
+    font-size:22px;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+.sptitleinput:focus{
+    outline: none;
+}

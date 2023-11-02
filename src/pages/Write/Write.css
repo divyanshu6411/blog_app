@@ -1,0 +1,90 @@
+.wrcontent
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.wrfileh
+{
+ display: none;
+
+}
+
+.wrtitle
+{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+ 
+}
+.wrtitle:focus
+{
+    outline:none;
+}
+
+.wrdesc
+{
+    border: none;
+}
+
+.wrpic
+{
+    object-fit: cover;
+    width:80vw;
+    height:300px;
+    border-radius: 7px;
+    margin:20px;
+   
+}
+.wrheader
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    height:40px;
+    font-size: 20px;
+    
+}
+.wrtextarea
+{
+    width:75%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.wrdesc:focus
+{
+    outline:none;
+}
+.wrdesc{
+    font-size: 20px;
+    height: 100vh;
+    width:100%;
+}
+
+.wrpublish
+{
+    position: absolute;
+    right:10%;
+    top:365px;
+    font-size: 20px;
+    padding:7px;
+    color:azure;
+    background-color: teal;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+
+.wraddicon
+{
+    border-radius: 50%;
+    border:2px solid black;
+    padding:7px;
+}
